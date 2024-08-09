@@ -1,0 +1,21 @@
+table, th, td {
+    border : 1px solid black;
+    border-collapse: collapse;
+
+}
+
+td {
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#MyTable td:hover {
+    background: red;
+  } 
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+    background: black;
+  }
+  tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background: white;
+  }
